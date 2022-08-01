@@ -19,9 +19,10 @@ header .container-lg i{
     background-color: #1abc9c;
 }
 
-#profilo .row{
-    width: 250px;
+#profilo .d-flex .row .col-12 img{
+    max-width: 250px;
 }
+
 
 #profilo .row .col-12 h1{
     color: #ffffff;
