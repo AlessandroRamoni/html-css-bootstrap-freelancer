@@ -68,3 +68,19 @@ header .container i{
 #portfolio .container{
     padding-top: 30px;
 }
+
+/* ABOUT */
+
+#about{
+    background-color: #1abc9c;
+}
+
+#about .container .row .col-12 .d-flex *{
+    color: #ffffff;
+}
+
+#about .container .row .col-12 h5{
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+}
