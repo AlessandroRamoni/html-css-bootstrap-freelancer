@@ -2,7 +2,7 @@ header{
     background-color: #2c3e50;
 }
 
-header .container-lg h1{
+header .container-lg h4{
     color: #ffffff;
     font-size: 1.2em;
 }
@@ -12,4 +12,31 @@ header .container-lg i{
     font-size: 1.5em;
     border: 2px solid #ffffff;
     border-radius: 5px;
+    cursor: pointer;
+}
+
+#profilo{
+    background-color: #1abc9c;
+}
+
+#profilo .row{
+    width: 250px;
+}
+
+#profilo .row .col-12 h1{
+    color: #ffffff;
+    font-size: 1.6em;
+}
+
+
+#profilo .row .col-12 .d-flex hr, #profilo .row .col-12 .d-flex i{
+    width: 70px;
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#profilo .row .col-12 .d-flex span{
+    color: #ffffff;
+    font-size: 1.3em;
 }
