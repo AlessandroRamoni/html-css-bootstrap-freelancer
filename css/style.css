@@ -129,3 +129,7 @@ footer{
     color: #ffffff;
     font-size: 1em;
 }
+
+footer .container-lg .row > div{
+    padding-top: 50px;
+}
