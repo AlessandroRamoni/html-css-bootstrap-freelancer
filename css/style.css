@@ -45,6 +45,14 @@ header .container i{
     font-size: 1.3em;
 }
 
+.line{
+    display: inline-block;
+    height: 2px;
+    width: 25%;
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+}
+
 /* PORTFOLIO */
 
 #portfolio{
