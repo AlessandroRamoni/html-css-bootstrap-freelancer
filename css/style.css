@@ -73,6 +73,7 @@ header .container i{
 
 #about{
     background-color: #1abc9c;
+    padding-bottom: 30px;
 }
 
 #about .container .row .col-12 .d-flex *{
@@ -89,6 +90,16 @@ header .container i{
     color: #ffffff;
 }
 
+#download{
+    border: 2px solid #ffffff;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
 /* CONTACT ME*/
 
 #submit{
@@ -98,6 +109,8 @@ header .container i{
     font-size: 1.5em;
     color: #ffffff;
 }
+
+
 
 /* FOOTER */
 

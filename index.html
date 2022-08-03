@@ -89,7 +89,7 @@
         <section id="about">
             <!-- titolo -->
             <div class="container">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center text-center">
                     <div class="col-12">
                         <h5>ABOUT</h5>
                         <div class="d-flex justify-content-center">
@@ -118,7 +118,7 @@
                             </div>
                         </div>
                         <div>
-                            <button>Download</button>
+                            <a id="download" href="#"><i class="bi bi-download">&nbsp;Download</i></a>
                         </div>
                     </div>
                 </div>
@@ -143,25 +143,25 @@
                     <div class="col-8 mx-auto justify-content-center">
                         <!-- form -->
                         <form action="#">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <div class="mb-3 form-floating">
                                 <input type="text" class="form-control" id="exampleFormControlInput2"
                                     placeholder="name">
+                                <label for="exampleFormControlInput1" class="form-label">Name</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <div class="mb-3 form-floating">
                                 <input type="email" class="form-control" id="exampleFormControlInput1"
                                     placeholder="name@example.com">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
+                            <div class="mb-3 form-floating">
                                 <input type="number" class="form-control" id="exampleFormControlInput2"
                                     placeholder="Phone number">
+                                <label for="exampleFormControlInput1" class="form-label">Phone number</label>
                             </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <div class="mb-3 form-floating">
                                 <textarea class="form-control" id="exampleFormControlTextarea1" cols="8"
                                     rows="3"></textarea>
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                             </div>
                             <div class="mb-3">
                                 <input id="submit" type="submit" value="Send">
@@ -176,7 +176,7 @@
     </main>
     <!-- footer -->
     <footer>
-        <div class="container-lg bc-footer-up">
+        <div class="container-lg bc-footer-up py-5">
             <div class="row text-center">
                 <div class="col-12 col-lg-4">
                     <p>LOCATION</p>
