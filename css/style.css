@@ -133,3 +133,13 @@ footer{
 footer .container-lg .row > div{
     padding-top: 50px;
 }
+
+.icons{
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 40px;
+}
