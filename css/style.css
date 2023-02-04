@@ -123,8 +123,9 @@ header .container i{
     background-color: #1abc9c;
     border-radius: 10px;
     border: 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: #ffffff;
+    padding: 5px 10px;
 }
 
 
