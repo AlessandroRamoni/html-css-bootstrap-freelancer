@@ -77,6 +77,15 @@ header .container i{
     padding-top: 30px;
 }
 
+#portfolio .container .hover {
+    cursor: pointer;
+    transition: transform 1s linear;
+}
+
+#portfolio .container .hover:hover {
+    transform: scale(1.1);
+}
+
 /* ABOUT */
 
 #about{
